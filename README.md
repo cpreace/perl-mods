@@ -1,0 +1,1 @@
+#perl-mods:  regex cheats
