@@ -1,0 +1,13 @@
+open(FH,$ARGV[0]);  [open a file from CLI args]
+
+while($line=<FH>)   [read contents of a file 1 line at a time]
+
+while($line=<FH>) {  [parsing of string '$line' while reading]
+       if ($line=~/Backup/) {
+                if ($line=~/\sQueued\s/) {
+                        print "\nYour Backup is Queued\n"; }                }
+        if ($line=~/\sDone\s/)  {
+		print "\nYou\'re an Idiot\n"; }
+	}
+}
+
