@@ -1,0 +1,14 @@
+while($line =~ m/(\s{1,12}(\d+)\s{1,10}(\d+)\s{1,10}(\d+))/g) {}
+
+while($line =~  m/\s(\d+)\s/g)
+
+while(chomp($x=<F>)){}
+
+if($line=~/maven/i) {}
+elsif ($line=~/Restore/){}
+
+use bigint @array;
+
+@array=reverse @array;
+
+$y=`bpdbjobs|grep -i $x|head -1`;
