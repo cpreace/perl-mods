@@ -12,3 +12,5 @@ use bigint @array;
 @array=reverse @array;
 
 $y=`bpdbjobs|grep -i $x|head -1`;
+
+#adding this line to see if i can achieve SELECTIVE rollback of files.

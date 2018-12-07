@@ -11,3 +11,4 @@ while($line=<FH>) {  [parsing of string '$line' while reading]
 	}
 }
 
+#adding this line to test "log, diff, show" features"
