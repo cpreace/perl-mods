@@ -1,0 +1,23 @@
+#!/usr/bin/perl
+sub parseLine {
+my $maxFields=8;
+my $cnt=0;
+#$line=s/^(\w+)_(\d+)/$1/;
+
+while($line =~ m/(\S+)/g and $cnt<$maxFields) {
+    $array[$cnt++]=$1;}
+
+    print "@array\n";
+    return;
+}
+$srcFile="/root/Data/junk.txt";
+#open(FH,"/root/Data/junk.txt");
+system("perl -p -i.cpy -e 's/(\w+)_(\d+)/\U$1/g' $srcFile");
+open(FH,$srcFile);
+my $cnt=0;
+
+while (chomp($line=<FH>)){
+    if ($line=~/Backupid/i) {next;}
+    s/^(\w+)_(\d+)/$1/;
+    parseLine;
+}
