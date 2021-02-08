@@ -1,0 +1,29 @@
+total 108
+drwxr-xr-x   2 root    root     4096 Feb  7 04:30 bin
+drwxr-xr-x   3 root    root     4096 Feb  8 06:31 boot
+drwxr-xr-x  16 root    root     3720 Feb  8 19:37 dev
+drwxr-xr-x 141 root    root    12288 Feb  7 04:31 etc
+drwxr-xr-x   6 cpgroup cpgroup  4096 Oct 12 13:54 home
+lrwxrwxrwx   1 root    root       33 Feb  7 04:32 initrd.img -> boot/initrd.img-4.4.0-201-generic
+lrwxrwxrwx   1 root    root       33 Feb  7 04:32 initrd.img.old -> boot/initrd.img-4.4.0-197-generic
+drwxr-xr-x  27 root    root     4096 Apr  4  2020 lib
+drwxr-xr-x   2 root    root     4096 Sep  7 06:38 lib64
+drwx------   2 root    root    16384 Apr 26  2019 lost+found
+drwxr-xr-x   2 root    root     4096 Apr 26  2019 media
+drwxrwxrwx   3 root    root     4096 Mar 28  2020 mnt
+drwxr-xr-x   3 root    root     4096 Mar 20  2020 opt
+drwxr-xr-x   3 root    root     4096 Feb  8 21:25 perl-mods
+dr-xr-xr-x 133 root    root        0 Feb  8 19:37 proc
+drwx------   8 root    root     4096 Feb  8 21:25 root
+drwxr-xr-x  33 root    root     1240 Feb  8 21:18 run
+drwxr-xr-x   2 root    root    12288 Dec  2 15:44 sbin
+drwxr-xr-x   2 root    root     4096 Apr 29  2019 snap
+drwxr-xr-x   2 root    root     4096 Apr 26  2019 srv
+dr-xr-xr-x  13 root    root        0 Feb  8 20:41 sys
+drwxr-xr-x   6 root    root     4096 Feb  7 04:49 test-mt-0
+drwxrwxrwt   7 root    root     4096 Feb  8 21:25 tmp
+drwxr-xr-x  12 root    root     4096 Apr  4  2020 usr
+drwxr-xr-x   2 root    root     4096 Apr 29  2019 vagrant
+drwxr-xr-x  14 root    root     4096 Apr  4  2020 var
+lrwxrwxrwx   1 root    root       30 Feb  7 04:32 vmlinuz -> boot/vmlinuz-4.4.0-201-generic
+lrwxrwxrwx   1 root    root       30 Feb  7 04:32 vmlinuz.old -> boot/vmlinuz-4.4.0-197-generic
